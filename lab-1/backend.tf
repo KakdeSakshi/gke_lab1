@@ -1,6 +1,6 @@
 terraform {
   backend "remote" {
-    organization = "ALTHAF-ORGS"
+    organization = "Sakshi-org"
     workspaces {
       prefix = "gke"
     }
