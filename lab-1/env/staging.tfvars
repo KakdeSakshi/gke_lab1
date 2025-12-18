@@ -12,11 +12,12 @@ services_cidr = "10.41.0.0/20"
 # -------------------------
 # GKE CLUSTER VALUES
 # -------------------------
-cluster_name = "staging-autopilot-41"   # change per environment
+cluster_name = "staging-autopilot-1"   # change per environment
 secondary_range_name  = "pods"
 secondary_range_name_services = "services"
 
 enable_cluster = true   # set false to disable cluster for an environment
+
 
 
 
