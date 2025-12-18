@@ -33,4 +33,4 @@ variable "enable_cluster" {
   type        = bool
   default     = false
 }
-#
+# added variables
