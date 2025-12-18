@@ -16,7 +16,7 @@ services_cidr = "10.30.0.0/20"   # Secondary for Services
 # -------------------------
 # GKE CLUSTER VALUES
 # -------------------------
-cluster_name = "dev-autopilot-0"   # change per environment
+cluster_name = "dev-autopilot-1"   # change per environment
 
 secondary_range_name  = "pods"
 secondary_range_name_services = "services"
@@ -24,6 +24,7 @@ secondary_range_name_services = "services"
 enabled_cluster = true   # set false to disable cluster for an environment
 ###
 ######
+
 
 
 
