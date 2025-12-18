@@ -27,3 +27,10 @@ variable "services_secondary_range_name" {
   type = string
   description = "Name of the secondary IP range for Services (from VPC module)"
 }
+
+variable "enable_cluster" {
+  description = "Enable or disable GKE cluster and related resources"
+  type        = bool
+  default     = false
+}
+#
